@@ -11,7 +11,7 @@ In my machine `nasm -f elf bmi-calculator.asm` &
 make executable. My machine is *Linux Ubuntu 20.04 x64*.
 
 ## How it works
-Asks users _weight_ and _height_. Then by using the formula 
+Program asks user's _weight_ and _height_. Then by using the formula 
 `bmi = height / weight^2` calculates the BMI and prints it.
 
 ![Demo image](images/demo1.jpg)
