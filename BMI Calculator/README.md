@@ -1,14 +1,15 @@
 # BMI Calculator (NASM)
 This is a simple command line application to calculate
 body index mass (BMI) by provided *weight* and *height* of a person.
-Written on **NASM** assembly language. 
+Written in **NASM** assembly language. 
 
 [![Developed by](https://img.shields.io/badge/Developed%20by-Chorobaev-orange)](https://github.com/chorobaev)
 
 ## How to run
 In my machine `nasm -f elf bmi-calculator.asm` & 
 `ld -m elf_i386 -s -o <output_name> bmi-calculator.o` commands were used to
-make executable. My machine is *Linux Ubuntu 20.04 x64*.
+make executable. To run the program, type `./<ouput_name>` in terminal.
+My machine is *Linux Ubuntu 20.04 x64*.
 
 ## How it works
 Program asks user's _weight_ and _height_. Then by using the formula 

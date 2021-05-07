@@ -1,0 +1,5 @@
+#!/bin/bash
+nasm -f elf64 guess-number-game.asm
+gcc -no-pie -o game guess-number-game.o
+./game
+
